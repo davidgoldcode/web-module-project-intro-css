@@ -50,3 +50,40 @@ table {
 /* CSS Reset */
 /* ------------------------------------------- */
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap'); /*Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); /*Import Google font */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.plan-visit {
+    background-color: #FF764E;
+}
+
+.learn-park {
+    background-color: #5ED3EB;
+}
+
+.get-involved {
+    background-color: #ffcd69;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+img {
+    width: 20px; /* temporary */ 
+}
