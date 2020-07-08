@@ -50,64 +50,160 @@ table {
 /* CSS Reset */
 /* ------------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap'); /*Import Google font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); /*Import Google font */
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     max-width: 100%;
+    border: 1px solid black !important;
 }
 
 html {
     font-size: 62.5%;
 }
 
+.nav {
+    display: block;
+    width: 100%;
+}
+
+
 .plan-visit {
     background-color: #FF764E;
+    color: white;
     display: inline-block;
     padding: 20px;
     border-radius: 25px;
     word-wrap: normal;
+    width: 200px;
+    height: 75px;
+    margin: 20px 200px;
+    padding-bottom: 60px;
+    text-align: center;
+    vertical-align: top;
 }
 
 .learn-park {
     background-color: #5ED3EB;
+    color: white;
     display: inline-block;
     padding: 20px;
+    border-radius: 25px;
+    word-wrap: normal;
+    width: 200px;
+    height: 75px;
+    margin: 20px 200px;
+    padding-bottom: 60px;
+    text-align: center;
+    vertical-align: top;
 }
 
 .get-involved {
     background-color: #ffcd69;
+    color: white;
     display: inline-block;
     padding: 20px;
+    border-radius: 25px;
+    word-wrap: normal;
+    width: 200px;
+    height: 75px;
+    margin: 20px 200px;
+    padding-bottom: 60px;
+    text-align: center;
+    vertical-align: top;
 }
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 2rem;
+    font-size: 7rem;
 }
 
 h3, p, figcaption, img, .nav {
     font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
-}
-
-img {
-    width: 20px; /* temporary */ 
+    font-size: 2.5rem;
 }
 
 .main-text {
     background-color: #DDB9A3;
-    display: inline-block;
+    color: white;
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 footer {
     background-color: #F9E7DC;
     display: inline-block;
+    width: 100%;
 }
 
 strong {
     font-weight: bold;
 }
+
+a {
+    display: block;
+    word-wrap: normal;
+    width: 175px;
+    align-items: center;
+    text-align: center;
+}
+
+.header-text {
+    display: inline-block;
+    width: 50%;
+    margin: 10% 50%;
+    text-align: left;
+}
+
+.first-h3 {
+    display: inline-block;
+    width: 62%;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.second-h3 {
+    display: inline-block;
+    width: 35%;
+    margin: 20px 40px;
+    text-align: center;
+}
+
+.header-img {
+    display: inline-block;
+    height: 220%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header-img-dv {
+    display: inline-block;
+    width: 20%;
+    height: 20%; 
+}
+
+.image-subtext {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.bonfire-image {
+    height: 200px;
+    margin: 0 100px;
+}
+
+.rv-image {
+    height: 200px;
+    margin: 0 100px;
+}
+
+.footer-photo {
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+    background-image: url("assets/header_img.jpg");
+}
+
