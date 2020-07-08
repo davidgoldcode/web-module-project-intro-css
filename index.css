@@ -65,11 +65,10 @@ html {
 .nav {
     display: block;
     width: 100%;
+    text-decoration: none;
 }
 
-
-.plan-visit {
-    background-color: #FF764E;
+.plan-visit, .learn-park, .get-involved {
     color: white;
     display: inline-block;
     padding: 20px;
@@ -81,36 +80,19 @@ html {
     padding-bottom: 60px;
     text-align: center;
     vertical-align: top;
+    text-decoration: none;
+}
+
+.plan-visit {
+    background-color: #FF764E;
 }
 
 .learn-park {
     background-color: #5ED3EB;
-    color: white;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 25px;
-    word-wrap: normal;
-    width: 200px;
-    height: 75px;
-    margin: 20px 200px;
-    padding-bottom: 60px;
-    text-align: center;
-    vertical-align: top;
 }
 
 .get-involved {
     background-color: #ffcd69;
-    color: white;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 25px;
-    word-wrap: normal;
-    width: 200px;
-    height: 75px;
-    margin: 20px 200px;
-    padding-bottom: 60px;
-    text-align: center;
-    vertical-align: top;
 }
 
 h1 {
@@ -120,16 +102,21 @@ h1 {
 
 h3, p, figcaption, img, .nav {
     font-family: 'Roboto Mono', monospace;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
+    color: black;
 }
 
 .main-text {
     background-color: #DDB9A3;
     color: white;
     display: block;
+    font-size: 3rem;
     width: 80%;
+    height: 200px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -139,7 +126,7 @@ footer {
 }
 
 strong {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 a {
@@ -153,7 +140,8 @@ a {
 .header-text {
     display: inline-block;
     width: 50%;
-    margin: 10% 50%;
+    height: 100px;
+    margin: 10% 50% 14% 45%;
     text-align: left;
 }
 
@@ -173,8 +161,10 @@ a {
 
 .header-img {
     display: inline-block;
-    height: 220%;
-    width: 100%;
+    height: 20%;
+    width: 80%;
+    margin-left: 50px;;
+    margin-bottom: 75px;
     border-radius: 50%;
 }
 
@@ -182,28 +172,40 @@ a {
     display: inline-block;
     width: 20%;
     height: 20%; 
+    margin-top: -60%;
+    margin-left: 450px;
 }
 
 .image-subtext {
     display: block;
     width: 20%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .bonfire-image {
     height: 200px;
-    margin: 0 100px;
+    margin: 50px 100px;
 }
 
 .rv-image {
     height: 200px;
-    margin: 0 100px;
+    margin: 50px 100px;
 }
 
-.footer-photo {
+.footer-banner-div {
     display: inline-block;
-    height: 200px;
+    height: 400px;
     width: 100%;
+    overflow: hidden;
     background-image: url("assets/header_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
 }
 
+.main-text p {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
