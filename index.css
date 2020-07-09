@@ -162,9 +162,9 @@ strong {
 
 .header-img {
     display: inline-block;
-    height: 20%;
+    height: 80%;
     width: 80%;
-    margin-left: 50px;;
+    margin-left: -20px;
     margin-bottom: 75px;
     border-radius: 50%;
 }
@@ -174,7 +174,7 @@ strong {
     width: 20%;
     height: 20%; 
     margin-top: -60%;
-    margin-left: 450px;
+    margin-left: 350px;
 }
 
 .image-subtext {
