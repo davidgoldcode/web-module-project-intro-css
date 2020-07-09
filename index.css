@@ -19,8 +19,8 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+    font-size: 100%;
+    font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -55,7 +55,7 @@ table {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid black !important;
+    /* border: 1px solid black !important; */
 }
 
 html {
@@ -125,9 +125,6 @@ footer {
     width: 100%;
 }
 
-strong {
-    font-weight: bolder;
-}
 
 a {
     display: block;
@@ -135,6 +132,10 @@ a {
     width: 175px;
     align-items: center;
     text-align: center;
+}
+
+strong {
+    font-weight: bold !important;
 }
 
 .header-text {
@@ -193,14 +194,12 @@ a {
 }
 
 .footer-banner-div {
-    display: inline-block;
-    height: 400px;
+    background-image: url(assets/footer_img.jpg);
+    height: 300px;
     width: 100%;
-    overflow: hidden;
-    background-image: url("assets/header_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 60%;
+    background-position: 50% 20%;
 }
 
 .main-text p {
@@ -209,3 +208,4 @@ a {
     text-align: center;
     color: white;
 }
+
